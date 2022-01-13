@@ -1,49 +1,88 @@
 Send the script file and the link to your git hub to the mentors for verification.
 
-4. Create a “new.json” file
+4. Create a “JSON” folder on GitHub
+	✓
+5. Clone repo on local
+	git clone link
+6. Create a “new.json” file
 touch new.json
-5. Add a file under git.
-git add .
-6. Commit the file.
-git commit -m "HW23"
-7. Send the file to an external GitHub repository.
-git push
-8. Create new2.json files, new2.xml , new2.txt
-touch new2.json new2.xml new2.txt
-9. Add files under git.
-git add .
-10. Commit files.
-git commit -m "HW23_Update"
-11. Send files to an external GitHub repository.
-git push
-12. Edit the contents of the file “new2.txt " - write information about yourself (full name, age, number of pets, future desired salary).
-vim new2.txt
-i
-FIO: .... Sergey ....
-age: 2?
-pets: 1
-salary: 400 dollars
-esc
-:wq
-13. Edit the contents of the file "new2.json" - write information about yourself (full name, age, number of pets, future desired salary). Write everything in JSON format.
-vim new2.json
-i
-{
+7. Add a file under git.
+	git add .
+8. Commit the file.
+	git commit -m "HW23"
+9. Send the file to an external GitHub repository.
+	git push
+10. Edit the contents of the file "new.json" - write information about yourself (full name, age, number of pets, future desired salary). Write everything in JSON format.
+	vim new.json
+	i
+	{
 
-"FIO": ".... Sergey ....",
-"age": "2?",
-"pets": 1,
-"salary": "400 dollars"
+	"FIO": ".... Alex ....",
+	"age": "32",
+	"pets": 1,
+	"salary": "125000 dollars"
 
-}
-esc
-:wq
-14. Add and commit “new2.txt ”one line.
-git add new2.txt && git commit -m "new2.txt "
-15. Add and commit "new2.json” in one line.
-git add new2.json && git commit -m "new2.json"
-16. Send changes to an external repository.
-git push
+	}
+	esc
+	:wq
+11. Add and commit “new.json ”one line.
+	git add new.json && git commit -m "new.json "
+12. Send changes to an external repository.
+	git push
+13. Create a preferences.json
+	vim preferences.json
+	i
+	
+	{
+
+	favorites: [
+		"movie": "The Hateful Eight",
+		"show": "Breaking Bad",
+		"food": "sushi",
+		"season": "spring",
+		"country": "Italy" 
+	]
+
+	}
+	esc
+	:wq
+14. Create skills.json
+	vim skills.json
+	i
+	
+	{
+	
+	"git": "GitHub",
+	"Shell": "GitBush",
+	"API": "Postman",
+	"Code": "Python"
+
+	}
+	esc
+	:wq	
+15. Send two files to an external repository
+	git add .
+	git commit -m "git add two files"
+	git push 
+16. Create a bug_report.json file on the web interface.
+	✓
+17. Make Commit changes (save) changes on the web interface
+	✓
+18. Modify the bug_report file on the web interface, add a bug report in JSON.
+	✓
+19  Make Commit changes (save) changes on the web interface.
+	✓
+20. Synchronize external and local JSON repository
+   git pull	
+
+
+
+
+
+
+
+
+   		
 17. Edit the contents of the file “new2.xml " - write information about yourself (full name, age, number of pets, future desired salary). Write everything in XML format.
 vim new2.xml
 i
