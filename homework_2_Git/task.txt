@@ -1,0 +1,97 @@
+Send the script file and the link to your git hub to the mentors for verification.
+
+4. Create a “new.json” file
+touch new.json
+5. Add a file under git.
+git add .
+6. Commit the file.
+git commit -m "HW23"
+7. Send the file to an external GitHub repository.
+git push
+8. Create new2.json files, new2.xml , new2.txt
+touch new2.json new2.xml new2.txt
+9. Add files under git.
+git add .
+10. Commit files.
+git commit -m "HW23_Update"
+11. Send files to an external GitHub repository.
+git push
+12. Edit the contents of the file “new2.txt " - write information about yourself (full name, age, number of pets, future desired salary).
+vim new2.txt
+i
+FIO: .... Sergey ....
+age: 2?
+pets: 1
+salary: 400 dollars
+esc
+:wq
+13. Edit the contents of the file "new2.json" - write information about yourself (full name, age, number of pets, future desired salary). Write everything in JSON format.
+vim new2.json
+i
+{
+
+"FIO": ".... Sergey ....",
+"age": "2?",
+"pets": 1,
+"salary": "400 dollars"
+
+}
+esc
+:wq
+14. Add and commit “new2.txt ”one line.
+git add new2.txt && git commit -m "new2.txt "
+15. Add and commit "new2.json” in one line.
+git add new2.json && git commit -m "new2.json"
+16. Send changes to an external repository.
+git push
+17. Edit the contents of the file “new2.xml " - write information about yourself (full name, age, number of pets, future desired salary). Write everything in XML format.
+vim new2.xml
+i
+<field name="FIO">.... Sergey ....</field>
+<field name="age">2?</field>
+<field name="pets">1</field>
+<field name="salary">400</field>
+esc
+:wq
+18. Add and commit “new2.xml ”one line.
+git add new2.xml && git commit -m "new2.xml "
+19. Send changes to an external repository.
+git push
+20. Send the previous GitBush Terminal homework to an external repository.
+good)
+21. In the GitHub web interface, create a file new3.txt .
+Good)
+22. Edit the contents of the file in the web interface “new3.txt " - write information about your preferences (Favorite movie, favorite TV series, favorite food, favorite time of year, the party you would like to visit).
+Well)
+23. Make Commit changes (save) changes on the web interface.
+Well)
+24. Synchronize the external and local repositories (merge changes from the external repository)
+git pull
+25. Edit the contents of the file "new2.json" - add information about your preferences (favorite movie, favorite TV series, favorite food, favorite time of year, the party you would like to visit). Everything is in JSON format.
+vim new2.json
+i
+{
+"FIO": ".... Sergey ....",
+"age": "2?",
+"pets": 1,
+"salary": "400 dollars",
+"Favorite movie": "Eli's book",
+"favorite TV series": "sharp visors",
+"favorite food": "delicious",
+"favorite time of the year": "summer",
+"the side you would like to visit": "maybe the left"
+}
+26. Make Commit changes (save) changes on the web interface.
+OK)
+... -> Upload files -> choose your files -> Commit changes
+27. Synchronize external and local repositories
+git add .
+git commit -m "fff"
+git push
+28. Edit the contents of the file in the web interface “new2.xml " - add information about your preferences (favorite movie, favorite TV series, favorite food, favorite time of year, the party you would like to visit). Everything is in XML format.
+Well)
+29. Make Commit changes (save) changes on the web interface.
+... -> Upload files -> choose your files -> Commit changes
+30. Synchronize external and local repositories
+git add .
+git commit -m "Final"
