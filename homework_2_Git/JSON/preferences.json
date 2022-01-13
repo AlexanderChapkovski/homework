@@ -1,0 +1,11 @@
+{
+	
+	favorites: [
+		"movie": "The Hateful Eight",
+		"show": "Breaking Bad",
+		"food": "sushi",
+		"season": "spring",
+		"country": "Italy" 
+	]
+
+	}
