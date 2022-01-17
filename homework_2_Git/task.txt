@@ -16,12 +16,10 @@ touch new.json
 	vim new.json
 	i
 	{
-
 	"FIO": ".... Alex ....",
 	"age": "32",
 	"pets": 1,
 	"salary": "125000 dollars"
-
 	}
 	esc
 	:wq
@@ -32,9 +30,7 @@ touch new.json
 13. Create a preferences.json
 	vim preferences.json
 	i
-	
 	{
-
 	favorites: [
 		"movie": "The Hateful Eight",
 		"show": "Breaking Bad",
@@ -42,21 +38,17 @@ touch new.json
 		"season": "spring",
 		"country": "Italy" 
 	]
-
 	}
 	esc
 	:wq
 14. Create skills.json
 	vim skills.json
 	i
-	
 	{
-	
 	"git": "GitHub",
 	"Shell": "GitBush",
 	"API": "Postman",
 	"Code": "Python"
-
 	}
 	esc
 	:wq	
